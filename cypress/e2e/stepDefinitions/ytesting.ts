@@ -17,7 +17,7 @@ Given("user is able to enter Url",() =>{
 
 
      const filePath = 'Api.xlsx'; // Update this to your actual file path
-        const sheetName = 'Sheet1'; // Name of the sheet
+        const sheetName = 'Sheet2'; // Name of the sheet
         const columnName = 'REQUEST_PAYLOAD'; // Name of the column to look for
         const rowName = 'Two'; // Name of the row to look for
 
