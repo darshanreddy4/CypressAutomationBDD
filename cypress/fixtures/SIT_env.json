@@ -1,0 +1,20 @@
+{
+  "field1": {
+    "username": "testUser",
+    "password": "testPass",
+    "email": "test@example.com",
+    "firstName": "John",
+    "lastName": "Doe"
+  },
+  "field2": {
+    "username": "testUser2",
+    "password": "testPass2",
+    "email": "test2@example.com",
+    "firstName": "John2",
+    "lastName": "Doe2",
+    "Extra": {
+      "Address": "abc"
+    }
+  },
+  "globalusername": "globaluser"
+}

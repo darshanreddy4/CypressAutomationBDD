@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Compiled output
+dist/
+
+# Cypress screenshots and videos
+cypress/screenshots/
+cypress/videos/
+
+# Logs
+*.log
+
+# Environment variables
+.env

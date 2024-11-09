@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // "target": "es6", // You may want to uncomment this if you want ES6 features, but you're currently targeting ES5.
+    // "module": "commonjs", // Commented out, you are using Node16 module system now.
+    "strict": true, // Enables all strict type-checking options.
+    "skipLibCheck": true, // Skip type checking of declaration files (.d.ts).
+    "forceConsistentCasingInFileNames": true, // Ensures that file names are treated with consistent casing across the project.
+    "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules.
+    "module": "Node16", // Specifies the module system to be used; Node16 is good for modern Node.js projects.
+    "moduleResolution": "Node16", // Specifies the module resolution strategy; Node16 aligns with the module system.
+    "target": "es5", // Sets the JavaScript language version for output; ES5 is widely compatible.
+    "lib": [ // List of library files to include in the compilation.
+      "es5", // Includes ES5 standard library features.
+      "dom" // Includes DOM library for browser-related features.
+    ],
+    "types": [ // Types for external libraries you want to include.
+      "cypress", // Type definitions for Cypress.
+      "node" // Type definitions for Node.js.
+    ],
+    "outDir": "./dist", // Directory where the compiled JavaScript files will be output.
+    "sourceMap": true, // For debugging
+    "noImplicitAny": true // Catch untyped variables,
+  },
+  "include": [
+    "**/**/*.ts" // Specifies which files to include in the compilation; this pattern includes all TypeScript files.
+  ],
+  "exclude": [
+    "node_modules"
+]
+}
