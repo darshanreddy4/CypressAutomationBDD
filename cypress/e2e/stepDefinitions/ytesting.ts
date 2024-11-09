@@ -25,4 +25,5 @@ Given("user is able to enter Url",() =>{
             cy.log(`Retrieved value: ${value}`);
             expect(value).to.exist; // Example assertion
         });
+        
 })
